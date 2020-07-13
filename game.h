@@ -36,7 +36,7 @@ void Game::exit() {
 	std::cout << '\n';
 	std::cout << m_p1 << "'s wins: " << m_p1.wins << '\n';
 	std::cout << m_p2 << "'s wins: " << m_p2.wins << '\n';
-	std::exit(EXIT_SUCCESS);
+	system("pause");
 }
 
 
