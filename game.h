@@ -100,7 +100,7 @@ void Game::handle_turn(Player &p) {
 		std::cout << "It's a tie!\n";
 	}
 
-	// Or in the case that player has won
+	// In the case that player has won
 	// stop the game and display a message
 	else if(m_board.has_won(p.symbol)) {
 		m_running = false;
