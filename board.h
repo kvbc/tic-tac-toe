@@ -34,7 +34,7 @@ private:
 };
 
 
-// When the index is out of bound return false,
+// When the index is out of bound returns false,
 // otherwise returns true if the value at that index is
 // equal to the given value 'p'
 bool Board::at(uchar *pos, uchar p) const {
