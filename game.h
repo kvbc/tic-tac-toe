@@ -30,7 +30,7 @@ private:
 };
 
 
-// This function gets executed when 
+// Function that gets executed when 
 // the user wants to exit the program
 void Game::exit() {
 	std::cout << '\n';
