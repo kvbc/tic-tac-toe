@@ -76,7 +76,7 @@ bool Board::is_full() {
 // - Horizontally,
 // - Diagonally
 bool Board::has_won(uchar p) {
-	for (int i = 0; i < 9; i += 3) {
+	for(int i = 0; i < 9; i += 3) {
 		uchar *_p = m_data + i;
 		// Vertical check
 		if (
