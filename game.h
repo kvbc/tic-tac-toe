@@ -94,7 +94,7 @@ void Game::handle_turn(Player &p) {
 	system("cls");
 	m_board.print();
 
-	// If the board is full (it's a tie)
+	// The board is full (it's a tie)
 	if(m_board.is_full()) {
 		m_running = false;
 		std::cout << "It's a tie!\n";
