@@ -80,14 +80,14 @@ bool Board::has_won(uchar p) {
 		uchar *_p = m_data + i;
 		// Vertical check
 		if (
-			*_p == p	  &&
+			*_p == p      &&
 			at(_p + 1, p) &&
 			at(_p + 2, p)
 		)
 			return true;
 		// Diagonal check
 		if (
-			*_p == p	    && (
+			*_p == p	&& (
 			(at(_p - 4, p)  &&
 			 at(_p - 2, p)) ||
 			(at(_p + 8, p)  &&
@@ -97,7 +97,7 @@ bool Board::has_won(uchar p) {
 		// Horizontal check
 		_p = m_data + 3 + i / 3;
 		if (
-			*_p == p	  &&
+			*_p == p      &&
 			at(_p - 3, p) &&
 			at(_p + 3, p)
 		)
